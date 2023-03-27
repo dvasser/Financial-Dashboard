@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import dash
 import dash_core_components as dcc
@@ -21,10 +15,6 @@ from FinnhubConnector import FinnhubConnector
 
 #define your API connector object that will later be used within the function
 connector = FinnhubConnector(api_key = 'YOUR_API_KEY')
-
-
-# In[9]:
-
 
 def run_dash_app(symbol):
     
@@ -374,35 +364,5 @@ def run_dash_app(symbol):
     #Run the app
     if __name__ == '__main__':
         app.run_server(debug=False)
-        
-
-
-# In[ ]:
-
 
 run_dash_app('CAT')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
