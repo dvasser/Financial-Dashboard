@@ -1,10 +1,8 @@
-import pandas as pd
 import dash
 import dash_core_components as dcc
 from dash import html
 from dash.dependencies import Input, Output
 import plotly.subplots as ms
-import pandas as pd
 import plotly.graph_objects as go
 from datetime import date
 from dateutil.relativedelta import relativedelta
