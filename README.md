@@ -1,3 +1,5 @@
-# Financial-Dashboard
-The Finnhub API Connector class was used for building this data visualization dashboard. Please refer to https://github.com/dvasser/Finnhub-API-Connector
-for more information. In order to use it you'll have to download and import it, as well as get a free Finnhub API key. After making all the necessary imports, define your key: connector = FinnhubConnector(api_key = 'YOUR_API_KEY') . After that you could run the function with any stock symbol you'd like such as: run_dash_app('CAT') or run_dash_app('MSFT') etc. Then simply click on the link that pops up and enjoy playing around with the candle stick charts and all the other options.
+## Instructions how to run the Financial Dash App:
+
+1) Get a free Finnhub API key. https://github.com/dvasser/Finnhub-API-Connector has more information and will be used for the dash app.
+2) Download this repository and navigate to the directory with all the files. Run the finn_dashapp.py
+3) You will be prompted to paste your API key and the stock symbol you'd like to see the dashboard of. If you'd like, you can define your connector variable connector = FinnhubConnector(api_key = 'YOUR_API_KEY') at the top of the .py file and delete the line for the input. Then you simplt have to click on the output link (port 8050) and explore the dash app. Read code comments for more details. Enjoy!
