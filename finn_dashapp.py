@@ -364,7 +364,5 @@ def run_dash_app(symbol):
     if __name__ == '__main__':
         app.run_server(debug=False)
 
-#cg7qq89r01qsgaf0h750cg7qq89r01qsgaf0h75g
-
 symbol = input('Enter a stock symbol: ')
 run_dash_app(symbol)
